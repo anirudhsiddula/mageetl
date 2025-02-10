@@ -1,0 +1,7 @@
+connector_type: kafka
+bootstrap_server: "docker_kafka:9093"
+topic: test
+consumer_group: unique_consumer_group
+include_metadata: false
+api_version: 0.10.2
+batch_size: 1
