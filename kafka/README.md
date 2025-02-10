@@ -1,9 +1,3 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
-[![Docker Stars](https://img.shields.io/docker/stars/wurstmeister/kafka.svg)](https://hub.docker.com/r/wurstmeister/kafka/)
-[![](https://images.microbadger.com/badges/version/wurstmeister/kafka.svg)](https://microbadger.com/images/wurstmeister/kafka "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/wurstmeister/kafka.svg)](https://microbadger.com/images/wurstmeister/kafka "Get your own image badge on microbadger.com")
-[![Build Status](https://app.travis-ci.com/wurstmeister/kafka-docker.svg?branch=master)](https://app.travis-ci.com/wurstmeister/kafka-docker)
-
 
 kafka-docker
 ============
@@ -22,14 +16,6 @@ curl -s https://registry.hub.docker.com/v2/repositories/wurstmeister/kafka/tags\
 ```
 
 Everytime the image is updated, all tags will be pushed with the latest updates. This should allow for greater consistency across tags, as well as any security updates that have been made to the base image.
-
----
-
-## Announcements
-
-* **04-Jun-2019** - Update base image to openjdk 212 ([Release notes](https://www.oracle.com/technetwork/java/javase/8u212-relnotes-5292913.html). Please force pull to get these latest updates - including security patches etc.
-
----
 
 ## Pre-Requisites
 
@@ -206,7 +192,3 @@ See the included sample compose file ```docker-compose-swarm.yml```
 ## Release process
 
 See the [wiki](https://github.com/wurstmeister/kafka-docker/wiki/ReleaseProcess) for information on adding or updating versions to release to Dockerhub.
-
-## Tutorial
-
-[http://wurstmeister.github.io/kafka-docker/](http://wurstmeister.github.io/kafka-docker/)
